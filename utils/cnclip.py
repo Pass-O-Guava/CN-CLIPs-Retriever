@@ -4,8 +4,7 @@
 from transformers import ChineseCLIPProcessor, ChineseCLIPModel
 
 # "OFA-Sys/chinese-clip-vit-base-patch16"
-MODEL_ID = "/mnt/data/CLIP/models/chinese-clip-vit-base-patch16"       # 718M
-MODEL_ID = "/mnt/data/CLIP/models/chinese-clip-vit-large-patch14"      # 1.5G
+MODEL_ID = "models/chinese-clip-vit-large-patch14"      # 1.5G
 
 class CNCLIP:
     def __init__(self, MODEL_ID, device):
