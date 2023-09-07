@@ -4,7 +4,7 @@
 from transformers import AltCLIPModel, AltCLIPProcessor
 
 # "BAAI/AltCLIP"
-MODEL_ID = "/mnt/data/CLIP/models/AltCLIP"     # 3.2G
+MODEL_ID = "models/AltCLIP"     # 3.2G
 
 class AltCLIP:
     
